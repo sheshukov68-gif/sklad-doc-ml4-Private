@@ -1,0 +1,8 @@
+[project]
+name = "sklad-doc-ml4"
+version = "0.1.0"
+description = "Mistral Workflow: извлечение позиций из складских документов через Mistral Large 4"
+requires-python = ">=3.12"
+dependencies = [
+    "mistralai-workflows[mistralai]>=3.10",
+]
